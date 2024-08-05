@@ -1,0 +1,14 @@
+<script>
+    let allitems=[
+        {name:'t-shirt',price:300,size:'m'},
+        {name:'t-shirt',price:400,size:'l',color:'red'},
+        {name:'shirt',price:300,size:'m',color:'white'},
+        {name:'t-shirt',price:301,size:'m'}
+    ]
+    
+    let sap=allitems.filter((g)=>{
+        console.log("--",g)
+        return g.name=='t-shirt'
+     })
+     console.log(sap)
+</script>
